@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/css.css">
+</head>
+
+<body>
+    <h1 class="text-center">TO DO LIST</h1>
+    <div class="container col-md-6 ">
+        <div class="card ">
+            <div class="card-body ">
+                <div class="form-group text-center">
+                    <div class="clock-container">
+                        <div class="clock text-center">
+                            <div class="needle hour"></div>
+                            <div class="needle minute"></div>
+                            <div class="needle second"></div>
+                            <div class="center-point"></div>
+                        </div>
+                        <div class="time"></div>
+                        <div class="date"><span class="circle"></span> </div>
+                    </div>
+                   
+                    <div class="container mt-4">
+                        <h1 class="display-4 text-center">
+                          <i class="fas fa-book-open text-primary"></i> My<span class="text-primary">To Do</span>List</h1>
+                          <form id="book-form">
+                            <div class="form-group">
+                              <label for="title">Task</label>
+                              <input type="text" id="title" class="form-control" placeholder="Add Task">
+                            </div>
+                            <div class="form-group">
+                              <label for="author">Date</label>
+                              <input type="date" id="author" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <label for="isbn">Time</label>
+                              <input type="time" id="isbn" class="form-control">
+                            </div>
+                            <input type="submit" value="Add Task" class="btn btn-primary btn-block btntask">
+                          </form>
+                          <div id="pdf">
+                          <table class="table table-striped mt-5">
+                             
+                            <thead>
+                              <tr>
+                                <th>Tasks</th>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Done</th>
+                              </tr>
+                            </thead>
+                            <tbody id="book-list"></tbody>
+                          </table>
+                        </div>
+                      </div>
+                    
+                    
+                    
+
+
+
+                    
+
+
+
+
+
+                            </tr>
+                    </div>
+                    </tabel>
+
+                </div>
+     
+           
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="two container col-md-6 ">
+        <div class="card ">
+            <div class="card-body">
+                <div id="alltitles">
+
+
+
+
+
+
+
+
+                </div>
+                <div class="alert alert-danger " id="notitles">
+
+                    <h2 class="text-center">NO Data Added</h2>
+                </div>
+
+
+
+
+             <div id="test">
+                 
+             </div>
+
+             
+
+<button class="pdfbutton btn btn-info m-auto "><a href="javascript:generatePDF()">Dowload PDF</a></button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js" ></script>
+                <script src="./js/js.js"></script>
+</body>
+
+</html>
